@@ -79,16 +79,22 @@ Comprehensive project summary covering multiple work categories.
 
 ## 🐍 Python Requirements | ความต้องการของระบบ Python
 
-โปรดติดตั้ง Python 3.8 ขึ้นไป และไลบรารีดังนี้:
-Install Python 3.8+ and the following libraries:
+โปรดติดตั้ง Python 3.8 ขึ้นไป และเลือกใช้คำสั่งติดตั้งไลบรารีตามระบบปฏิบัติการของคุณ:
+Install Python 3.8+ and use the installation command for your operating system:
 
+### 🪟 Windows
+`powershell
+python -m pip install -r requirements.txt
+`
+
+### 🍎 macOS / 🐧 Linux
 `ash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 `
 
 ---
 
-## 🛠️ Requirements | ข้อกำหนด
+## 🛠️ Requirements | ข้อกำหนด | ข้อกำหนด
 - **GitHub CLI (gh)**: v2.89.0+
 - **Compatible AI Agent**: Gemini CLI, GitHub Copilot, or any agent supporting `agentskills.io` standard.
 
@@ -110,3 +116,4 @@ pip install -r requirements.txt
 ## ⚠️ Important Note on Construction Doc Manager
 Skill นี้จำเป็นต้องใช้ไฟล์ **Excel Template (.xlsx)** ในการสร้างรายงาน โปรดตรวจสอบในโฟลเดอร์ construction-doc/templates/ สำหรับรายละเอียดการตั้งค่าไฟล์
 This skill requires an **Excel Template (.xlsx)** to generate reports. Please check construction-doc/templates/ for file setup details.
+
