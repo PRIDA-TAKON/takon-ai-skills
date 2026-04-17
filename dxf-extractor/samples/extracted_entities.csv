@@ -1,0 +1,4 @@
+﻿Filename,Entity,Content,Layer,X,Y
+floor_plan_01.dxf,TEXT,Room 101,A-WALL-TEXT,1250.50,3400.20
+floor_plan_01.dxf,INSERT,Column_C1,S-COL-HIDDEN,1500.00,3500.00
+detail_02.dxf,MTEXT,Material: Steel,A-DETL-NOTE,450.25,120.10
