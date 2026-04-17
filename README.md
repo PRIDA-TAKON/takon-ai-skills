@@ -71,7 +71,7 @@ gh skill install PRIDA-TAKON/takon-ai-skills
 | **Overall Progress** | 75% |
 | **AI Summary** | Foundation Zone A completed, Level 2 Mechanical in progress. |
 
-👉 **[คลิกเพื่อดูตัวอย่าง Dashboard จริง (Full HTML Preview)](./construction-doc/samples/sample_dashboard.html)**
+👉 **[คลิกเพื่อดูตัวอย่าง Dashboard จริง (Full HTML Preview)](https://htmlpreview.github.io/?https://github.com/PRIDA-TAKON/takon-ai-skills/blob/master/construction-doc/samples/sample_dashboard.html)**
 
 ---
 
@@ -99,4 +99,5 @@ pip install -r requirements.txt
 
 ---
 *Created with ❤️ by Takon for the Construction & Engineering Community.*
+
 
