@@ -63,15 +63,17 @@ gh skill install PRIDA-TAKON/takon-ai-skills
 | **D-02** | Sliding | 1800 | 2400 | Aluminum/Glass | Standard |
 
 ### 3. 📊 Construction Dashboard (Preview)
-สรุปความคืบหน้าที่ดูผ่านเว็บได้ทันที (สร้างจากข้อมูลที่ AI สรุปให้)
+สรุปความคืบหน้าที่ดูผ่านเว็บได้ทันที ครอบคลุมหลายส่วนงานในโครงการเดียว
+Comprehensive project summary covering multiple work categories.
 
-| Project Metric | Status / Progress |
-| :--- | :--- |
-| **Project Date** | 2026-04-17 |
-| **Overall Progress** | 75% |
-| **AI Summary** | Foundation Zone A completed, Level 2 Mechanical in progress. |
+| Work Category | Progress | Status | AI Summary Snippet |
+| :--- | :--- | :--- | :--- |
+| **Zone A Structural** | 100% | ✅ Done | Completed, next: Internal plastering |
+| **Zone B Foundation**| 85%  | 🏗️ Active | Reinforcement 90% complete |
+| **MEP Electrical**   | 42%  | ⚠️ Delayed | Delayed by bracket procurement |
+| **External Masonry** | 25%  | ⏳ Active | In progress, on schedule |
 
-👉 **[คลิกเพื่อดูตัวอย่าง Dashboard จริง (Full HTML Preview)](https://htmlpreview.github.io/?https://github.com/PRIDA-TAKON/takon-ai-skills/blob/master/construction-doc/samples/sample_dashboard.html)**
+👉 **[คลิกเพื่อดูตัวอย่าง Dashboard จริง (Complex HTML Preview)](https://htmlpreview.github.io/?https://github.com/PRIDA-TAKON/takon-ai-skills/blob/master/construction-doc/samples/sample_dashboard.html)**](https://htmlpreview.github.io/?https://github.com/PRIDA-TAKON/takon-ai-skills/blob/master/construction-doc/samples/sample_dashboard.html)**
 
 ---
 
@@ -99,5 +101,6 @@ pip install -r requirements.txt
 
 ---
 *Created with ❤️ by Takon for the Construction & Engineering Community.*
+
 
 
