@@ -15,9 +15,9 @@ A collection of professional AI Agent Skills designed to streamline workflows in
 
 | Skill Name | Description (TH/EN) | Key Tags |
 | :--- | :--- | :--- |
-| **DXF Extractor** | สกัดข้อมูล CAD (Text/Block) / Extract CAD Data (Text/Block) | CAD, DXF, CSV |
-| **Door Schedule** | จัดการแบบขยายประตู / Door Specifications Automation | Architecture, Door |
-| **Construction Doc** | รายงานประจำวันและ Dashboard / Daily Reports & Dashboards | Management, Typhoon AI |
+| **DXF Extractor** | สกัดข้อมูล CAD (Text/Block) / Extract CAD Data (Text/Block) | `CAD`, `DXF`, `CSV` |
+| **Door Schedule** | จัดการแบบขยายประตู / Door Specifications Automation | `Architecture`, `Door` |
+| **Construction Doc** | รายงานประจำวันและ Dashboard / Daily Reports & Dashboards | `Management`, `Typhoon AI` |
 
 ---
 
@@ -62,21 +62,16 @@ gh skill install PRIDA-TAKON/takon-ai-skills
 | **D-01** | Single Swing | 900 | 2100 | Teak Wood | Fire Rated 30m |
 | **D-02** | Sliding | 1800 | 2400 | Aluminum/Glass | Standard |
 
-### 3. 📊 Construction Dashboard (HTML Preview)
-`	ext
-+-----------------------------------------------------------+
-| PROJECT PROGRESS DASHBOARD - 2026-04-17                   |
-+-----------------------------------------------------------+
-| Overall Progress: [==============----] 75%               |
-+-----------------------------------------------------------+
-| Latest Status (AI Summary by Typhoon):                    |
-| - Foundation work completed for Zone A.                   |
-| - Mechanical installations in progress (Level 2).          |
-| - Weather: Sunny (Optimal for concrete pouring).           |
-+-----------------------------------------------------------+
-| [View Site Photo] | [Download Full Excel Daily Report]    |
-+-----------------------------------------------------------+
-`
+### 3. 📊 Construction Dashboard (Preview)
+สรุปความคืบหน้าที่ดูผ่านเว็บได้ทันที (สร้างจากข้อมูลที่ AI สรุปให้)
+
+| Project Metric | Status / Progress |
+| :--- | :--- |
+| **Project Date** | 2026-04-17 |
+| **Overall Progress** | 75% |
+| **AI Summary** | Foundation Zone A completed, Level 2 Mechanical in progress. |
+
+👉 **[คลิกเพื่อดูตัวอย่าง Dashboard จริง (Full HTML Preview)](./construction-doc/sample_dashboard.html)**
 
 ---
 
@@ -93,7 +88,7 @@ pip install -r requirements.txt
 
 ## 🛠️ Requirements | ข้อกำหนด
 - **GitHub CLI (gh)**: v2.89.0+
-- **Compatible AI Agent**: Gemini CLI, GitHub Copilot, or any agent supporting gentskills.io standard.
+- **Compatible AI Agent**: Gemini CLI, GitHub Copilot, or any agent supporting `agentskills.io` standard.
 
 ---
 
