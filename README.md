@@ -61,3 +61,19 @@ gh skill install PRIDA-TAKON/takon-ai-skills
 
 ---
 *Created with ❤️ by Takon for the Construction & Engineering Community.*
+
+---
+
+## 🐍 Python Requirements | ความต้องการของระบบ Python
+
+เพื่อให้สคริปต์ในชุดเครื่องมือทำงานได้ โปรดติดตั้ง Python 3.8 ขึ้นไป และไลบรารีดังนี้:
+To run the scripts included in this suite, please install Python 3.8+ and the following libraries:
+
+`bash
+pip install -r requirements.txt
+`
+
+### Core Libraries:
+- **ezdxf**: For CAD (.dxf) file processing.
+- **openpyxl & Pillow**: For Excel report generation and image handling.
+- **requests**: For AI API integration (Typhoon AI).

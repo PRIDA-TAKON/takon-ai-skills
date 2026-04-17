@@ -1,0 +1,5 @@
+﻿ezdxf
+openpyxl
+requests
+Pillow
+python-dotenv
