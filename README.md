@@ -77,6 +77,19 @@ Comprehensive project summary covering multiple work categories.
 
 ---
 
+## 💻 Compatibility Matrix | ตารางความเข้ากันได้
+
+ชุดเครื่องมือนี้ถูกออกแบบมาให้ทำงานข้ามแพลตฟอร์ม (Cross-platform) ได้ 100%
+This suite is designed to be 100% cross-platform compatible.
+
+| Operating System | Compatibility | Python Version | Notes |
+| :--- | :---: | :---: | :--- |
+| **Windows** 🪟 | ✅ Full | 3.8+ | มาตรฐานสำหรับงานวิศวกรรม / Standard for CAD. |
+| **macOS** 🍎 | ✅ Full | 3.8+ | รองรับชิป M1/M2/M3 (Native ARM) |
+| **Linux** 🐧 | ✅ Full | 3.8+ | ทดสอบแล้วบน Ubuntu, Fedora, Debian. |
+
+---
+
 ## 🐍 Python Requirements | ความต้องการของระบบ Python
 
 โปรดติดตั้ง Python 3.8 ขึ้นไป และเลือกใช้คำสั่งติดตั้งไลบรารีตามระบบปฏิบัติการของคุณ:
@@ -116,4 +129,5 @@ python3 -m pip install -r requirements.txt
 ## ⚠️ Important Note on Construction Doc Manager
 Skill นี้จำเป็นต้องใช้ไฟล์ **Excel Template (.xlsx)** ในการสร้างรายงาน โปรดตรวจสอบในโฟลเดอร์ construction-doc/templates/ สำหรับรายละเอียดการตั้งค่าไฟล์
 This skill requires an **Excel Template (.xlsx)** to generate reports. Please check construction-doc/templates/ for file setup details.
+
 
