@@ -104,3 +104,9 @@ pip install -r requirements.txt
 
 
 
+
+---
+
+## ⚠️ Important Note on Construction Doc Manager
+Skill นี้จำเป็นต้องใช้ไฟล์ **Excel Template (.xlsx)** ในการสร้างรายงาน โปรดตรวจสอบในโฟลเดอร์ construction-doc/templates/ สำหรับรายละเอียดการตั้งค่าไฟล์
+This skill requires an **Excel Template (.xlsx)** to generate reports. Please check construction-doc/templates/ for file setup details.
